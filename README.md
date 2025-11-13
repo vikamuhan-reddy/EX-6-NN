@@ -3,14 +3,14 @@
 ### EX. NO.: 6
 ### DATE: 13/11/25  
 
----
+
 
 # Heart Attack Prediction using MLP
 
 ### Aim:
 To construct a Multi-Layer Perceptron (MLP) to predict heart attack using Python.
 
----
+
 
 ### Algorithm:
 
@@ -26,7 +26,7 @@ To construct a Multi-Layer Perceptron (MLP) to predict heart attack using Python
 10. **Print** the accuracy and performance metrics.  
 11. **Plot** the training error convergence using `plt.plot()` and `plt.show()`.  
 
----
+
 
 ### Program:
 
