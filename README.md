@@ -1,27 +1,36 @@
-<H3>ENTER YOUR NAME Vikamuhan Reddy</H3>
-<H3>ENTER YOUR REGISTER NO. 212223240181</H3>
-<H3>EX. NO.6</H3>
-<H3>DATE: 13/11/25 </H3>
+### ENTER YOUR NAME: Vikamuhan Reddy
+### ENTER YOUR REGISTER NO.: 212223240181  
+### EX. NO.: 6
+### DATE: 13/11/25  
 
-<H1 ALIGN =CENTER>Heart attack prediction using MLP</H1>
+---
 
-<H3>Aim:</H3>  To construct a  Multi-Layer Perceptron to predict heart attack using Python
-<H3>Algorithm:</H3>
-Step 1:Import the required libraries: numpy, pandas, MLPClassifier, train_test_split, StandardScaler, accuracy_score, and matplotlib.pyplot.<BR>
-Step 2:Load the heart disease dataset from a file using pd.read_csv().<BR>
-Step 3:Separate the features and labels from the dataset using data.iloc values for features (X) and data.iloc[:, -1].values for labels (y).<BR>
-Step 4:Split the dataset into training and testing sets using train_test_split().<BR>
-Step 5:Normalize the feature data using StandardScaler() to scale the features to have zero mean and unit variance.<BR>
-Step 6:Create an MLPClassifier model with desired architecture and hyperparameters, such as hidden_layer_sizes, max_iter, and random_state.<BR>
-Step 7:Train the MLP model on the training data using mlp.fit(X_train, y_train). The model adjusts its weights and biases iteratively to minimize the training loss.<BR>
-Step 8:Make predictions on the testing set using mlp.predict(X_test).<BR>
-Step 9:Evaluate the model's accuracy by comparing the predicted labels (y_pred) with the actual labels (y_test) using accuracy_score().<BR>
-Step 10:Print the accuracy of the model.<BR>
-Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
+# Heart Attack Prediction using MLP
 
+### Aim:
+To construct a Multi-Layer Perceptron (MLP) to predict heart attack using Python.
 
-<H3>Program: </H3>
-```py
+---
+
+### Algorithm:
+
+1. **Import** the required libraries: `numpy`, `pandas`, `MLPClassifier`, `train_test_split`, `StandardScaler`, `accuracy_score`, and `matplotlib.pyplot`.  
+2. **Load** the heart disease dataset using `pd.read_csv()`.  
+3. **Separate** the features and labels using `data.iloc` values for features (`X`) and labels (`y`).  
+4. **Split** the dataset into training and testing sets using `train_test_split()`.  
+5. **Normalize** the feature data using `StandardScaler()` to scale features to zero mean and unit variance.  
+6. **Create** an `MLPClassifier` model with the desired architecture and hyperparameters such as `hidden_layer_sizes`, `max_iter`, and `random_state`.  
+7. **Train** the MLP model using `mlp.fit(X_train, y_train)` to adjust weights and biases iteratively.  
+8. **Predict** on the test data using `mlp.predict(X_test)`.  
+9. **Evaluate** model accuracy using `accuracy_score(y_test, y_pred)`.  
+10. **Print** the accuracy and performance metrics.  
+11. **Plot** the training error convergence using `plt.plot()` and `plt.show()`.  
+
+---
+
+### Program:
+
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -73,12 +82,11 @@ plt.show()
 
 ```
 
-
-<H3>Output:</H3>
+### Output:
 
 <img width="500" height="360" alt="Screen Shot 1947-08-22 at 13 34 58" src="https://github.com/user-attachments/assets/bc4d607d-6646-4564-9e17-12d6b2c90a1d" />
 
 
+### Result:
+Thus, an Artificial Neural Network with MLP is constructed and trained successfully to predict heart attack using Python.
 
-<H3>Results:</H3>
-Thus, an ANN with MLP is constructed and trained to predict the heart attack using python.
