@@ -14,17 +14,17 @@ To construct a Multi-Layer Perceptron (MLP) to predict heart attack using Python
 
 ### Algorithm:
 
-1. **Import** the required libraries: `numpy`, `pandas`, `MLPClassifier`, `train_test_split`, `StandardScaler`, `accuracy_score`, and `matplotlib.pyplot`.  
-2. **Load** the heart disease dataset using `pd.read_csv()`.  
-3. **Separate** the features and labels using `data.iloc` values for features (`X`) and labels (`y`).  
-4. **Split** the dataset into training and testing sets using `train_test_split()`.  
-5. **Normalize** the feature data using `StandardScaler()` to scale features to zero mean and unit variance.  
-6. **Create** an `MLPClassifier` model with the desired architecture and hyperparameters such as `hidden_layer_sizes`, `max_iter`, and `random_state`.  
-7. **Train** the MLP model using `mlp.fit(X_train, y_train)` to adjust weights and biases iteratively.  
-8. **Predict** on the test data using `mlp.predict(X_test)`.  
-9. **Evaluate** model accuracy using `accuracy_score(y_test, y_pred)`.  
-10. **Print** the accuracy and performance metrics.  
-11. **Plot** the training error convergence using `plt.plot()` and `plt.show()`.  
+1. Import the required libraries: `numpy`, `pandas`, `MLPClassifier`, `train_test_split`, `StandardScaler`, `accuracy_score`, and `matplotlib.pyplot`.  
+2. Load the heart disease dataset using `pd.read_csv()`.  
+3. Separate the features and labels using `data.iloc` values for features (`X`) and labels (`y`).  
+4. Split the dataset into training and testing sets using `train_test_split()`.  
+5. Normalize the feature data using `StandardScaler()` to scale features to zero mean and unit variance.  
+6. Create an `MLPClassifier` model with the desired architecture and hyperparameters such as `hidden_layer_sizes`, `max_iter`, and `random_state`.  
+7. Train the MLP model using `mlp.fit(X_train, y_train)` to adjust weights and biases iteratively.  
+8. Predict on the test data using `mlp.predict(X_test)`.  
+9. Evaluate model accuracy using `accuracy_score(y_test, y_pred)`.  
+10. Print the accuracy and performance metrics.  
+11. Plot the training error convergence using `plt.plot()` and `plt.show()`.  
 
 
 
