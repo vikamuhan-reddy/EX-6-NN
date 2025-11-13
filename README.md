@@ -84,7 +84,7 @@ plt.show()
 
 ### Output:
 
-<img width="700" height="250" alt="Screen Shot 1947-08-22 at 13 34 58" src="https://github.com/user-attachments/assets/bc4d607d-6646-4564-9e17-12d6b2c90a1d" />
+<img width="250" height="600" alt="Screen Shot 1947-08-22 at 13 34 58" src="https://github.com/user-attachments/assets/bc4d607d-6646-4564-9e17-12d6b2c90a1d" />
 
 
 ### Result:
